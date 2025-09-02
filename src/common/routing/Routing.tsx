@@ -6,8 +6,8 @@ import { Login } from "@/features/auth/ui/Login/Login"
 import { Route, Routes } from "react-router"
 
 export const Path = {
-  Main: "/",
-  Login: "login",
+  Main: "/TodolistFII",
+  Login: "/TodolistFII/login",
   NotFound: "*",
 } as const
 
